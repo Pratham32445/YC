@@ -15,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <motion.div
+    <motion.div 
       initial={{ translateY: 50, opacity: 0 }}
       animate={{ translateY: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
